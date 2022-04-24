@@ -15,8 +15,8 @@
 <body>
     <header>
         <!-- NavBar -->
-        <nav class="shadow navbar navbar-expand-lg navbar-light bg-light py-4">
-            <div class="container">
+        <nav class="fixed-top shadow navbar navbar-expand-lg navbar-light bg-light py-4">
+            <div class=" container">
 
                 <a class="navbar-brand" href="#">BootStrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,10 +27,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item me-4">
-                            <a class="nav-link active" aria-current="page" href="#">Features</a>
+                            <a class="nav-link active" aria-current="page" href="#feature">Features</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Download</a>
+                            <a class="nav-link" href="#download">Download</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link bg-danger rounded-pill px-4 text-white" href="#">
@@ -48,7 +48,7 @@
 
         </nav>
     </header>
-    <main>
+    <main style="margin-top: 100px;">
         <!-- Showcase -->
         <section class="container my-3">
             <div class="row d-flex align-items-center">
@@ -87,10 +87,10 @@
         </section>
 
         <!-- Device Mockup -->
-        <section class="container my-3">
+        <section class="container my-3" id="feature">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-12">
-                    <div class="d-flex justify-content-md-center justify-content-sm-center">
+                    <div class="d-flex justify-content-center">
                         <img src="./img/phone.png" alt="">
                     </div>
 
@@ -179,8 +179,8 @@
             </div>
         </section>
         <!-- Get the App Now  -->
-        <section class="container-fluid bg-dark">
-            <div class="d-flex justify-content-sm-center align-items-sm-center py-5">
+        <section class="container-fluid bg-dark" id="download">
+            <div class="container d-flex justify-content-center align-items-center py-5">
                 <div class="py-5">
                     <h1 class="text-white">Get the App Now!</h1>
                     <span><img src="./img/app-store.png" alt=""></span>
